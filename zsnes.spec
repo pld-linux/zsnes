@@ -10,6 +10,8 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}%{fversion}src.tar.gz
 # Source0-md5:	576f6f5cc50c7c6f7877aca220ee99b3
 URL:		http://zsnes.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libpng-devel
 BuildRequires:	nasm >= 0.98
 BuildRequires:	zlib-devel
