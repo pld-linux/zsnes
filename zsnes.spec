@@ -13,6 +13,7 @@ BuildRequires:	SDL-devel >= 1.2
 BuildRequires:	nasm >= 0.98
 BuildRequires:	libpng-devel
 BuildRequires:	zlib-devel
+ExclusiveArch:	%{ix86} amd64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
