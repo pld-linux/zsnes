@@ -4,14 +4,14 @@ Summary(pl):	Emulator Nintendo Super NES / Super Famicom
 Name:		zsnes
 Version:	1.36
 Release:	0.1
-Source0:	http://dl.sourceforge.net/%{name}/%{name}%{fversion}src.tar.gz
-# Source0-md5:	576f6f5cc50c7c6f7877aca220ee99b3
 License:	GPL
 Group:		Application/Emulators
+Source0:	http://dl.sourceforge.net/%{name}/%{name}%{fversion}src.tar.gz
+# Source0-md5:	576f6f5cc50c7c6f7877aca220ee99b3
 URL:		http://zsnes.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2
-BuildRequires:	nasm >= 0.98
 BuildRequires:	libpng-devel
+BuildRequires:	nasm >= 0.98
 BuildRequires:	zlib-devel
 ExclusiveArch:	%{ix86} amd64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -43,6 +43,7 @@ cp -f /usr/share/automake/config.sub .
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 install -D src/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
 install -D src/linux/%{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
 
@@ -54,5 +55,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc authors.txt install.txt opengl.txt readme.txt srcinfo.txt todo.txt whatsnew.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
-
-# end of file
