@@ -3,7 +3,7 @@ Summary:	Nintendo Super NES / Super Famicom Emulator
 Summary(pl):	Emulator Nintendo Super NES / Super Famicom
 Name:		zsnes
 Version:	1.36
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Application/Emulators
 Source0:	http://dl.sourceforge.net/%{name}/%{name}%{fversion}src.tar.gz
