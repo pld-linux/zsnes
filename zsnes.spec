@@ -24,11 +24,11 @@ The GUI enables the user to select games, change options, enable cheat
 codes and to save the game state, even network play is possible.
 
 %description -l pl
-Jest to emulator 16 bitowej konsoli, zwanej Super Nintendo Enterainment 
-System lub Superfamicom. Cechuje siê niez³ym przyspieszeniem emulacji
-systemowej grafiki i mo¿liwo¶ci d¼wiêkowych. GUI umozliwia wybranie gry,
-zmianê opcji, w³aczenie kodów u³atwieñ i zachowanie stanu gry, jest tak¿e
-mozliwa gra sieciowa.
+Jest to emulator 16 bitowej konsoli, zwanej Super Nintendo
+Enterainment System lub Superfamicom. Cechuje siê niez³ym
+przyspieszeniem emulacji systemowej grafiki i mo¿liwo¶ci d¼wiêkowych.
+GUI umo¿liwia wybranie gry, zmianê opcji, w³±czenie kodów u³atwieñ i
+zachowanie stanu gry, jest tak¿e mo¿liwa gra sieciowa.
 
 %prep
 %setup -q
