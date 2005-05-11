@@ -15,7 +15,7 @@ BuildRequires:	automake
 BuildRequires:	libpng-devel
 BuildRequires:	nasm >= 0.98
 BuildRequires:	zlib-devel
-ExclusiveArch:	%{ix86} amd64
+ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
