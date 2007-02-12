@@ -1,6 +1,6 @@
 %define fversion %(echo %{version} |tr -d .)
 Summary:	Nintendo Super NES / Super Famicom Emulator
-Summary(pl):	Emulator Nintendo Super NES / Super Famicom
+Summary(pl.UTF-8):   Emulator Nintendo Super NES / Super Famicom
 Name:		zsnes
 Version:	1.36
 Release:	2
@@ -25,12 +25,12 @@ accurate emulation of that system's graphic and sound capabilities.
 The GUI enables the user to select games, change options, enable cheat
 codes and to save the game state, even network play is possible.
 
-%description -l pl
+%description -l pl.UTF-8
 Jest to emulator 16 bitowej konsoli, zwanej Super Nintendo
-Enterainment System lub Superfamicom. Cechuje siÍ niez≥ym
-przyspieszeniem emulacji systemowej grafiki i moøliwo∂ci dºwiÍkowych.
-GUI umoøliwia wybranie gry, zmianÍ opcji, w≥±czenie kodÛw u≥atwieÒ i
-zachowanie stanu gry, jest takøe moøliwa gra sieciowa.
+Enterainment System lub Superfamicom. Cechuje siƒô niez≈Çym
+przyspieszeniem emulacji systemowej grafiki i mo≈ºliwo≈õci d≈∫wiƒôkowych.
+GUI umo≈ºliwia wybranie gry, zmianƒô opcji, w≈ÇƒÖczenie kod√≥w u≈Çatwie≈Ñ i
+zachowanie stanu gry, jest tak≈ºe mo≈ºliwa gra sieciowa.
 
 %prep
 %setup -q
