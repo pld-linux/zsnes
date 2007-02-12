@@ -1,6 +1,6 @@
 %define fversion %(echo %{version} |tr -d .)
 Summary:	Nintendo Super NES / Super Famicom Emulator
-Summary(pl.UTF-8):   Emulator Nintendo Super NES / Super Famicom
+Summary(pl.UTF-8):	Emulator Nintendo Super NES / Super Famicom
 Name:		zsnes
 Version:	1.36
 Release:	2
